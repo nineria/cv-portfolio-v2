@@ -9,6 +9,7 @@ import {
 import '../style.css';
 
 import { motion } from 'framer-motion';
+import ReactTyped from 'react-typed';
 function HomePage() {
   return (
     <HeaderContainer>
@@ -29,6 +30,15 @@ function HomePage() {
         >
           Hello There! I'm Pankorn Front-end Developer🌻
         </motion.h1>
+        <ReactTyped
+          strings={[
+            'Front-End Developer, Day Trader, Reader and Listener.',
+            'Looking For Internship in Front-end position.',
+          ]}
+          typeSpeed={50}
+          backSpeed={50}
+          loop={true}
+        />
       </Container2>
       <Container3
         as={motion.div}

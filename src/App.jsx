@@ -1,12 +1,11 @@
-import styled from 'styled-components';
-import './style.css';
-
 import { Route, Routes } from 'react-router-dom';
+import styled from 'styled-components';
 import Experiences from './Pages/Experiences';
 import HomePage from './Pages/HomePage';
 import ProgrammingSkill from './Pages/ProgrammingSkill';
 import Showcase from './Pages/Showcase';
 import SidebarMain from './Pages/SidebarMain';
+import './style.css';
 
 const Div = styled.div`
   font-family: 'Source Code Pro', monospace;

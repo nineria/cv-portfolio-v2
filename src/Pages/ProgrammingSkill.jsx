@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import ReactTyped from 'react-typed';
 import {
   PageLayout,
   SkillContainer1,
@@ -67,6 +68,12 @@ function ProgrammingSkill() {
         <p>🔻Investing</p>
         <p>🔻Short-Medium term forex analysis</p>
       </SkillContainer1>
+      <ReactTyped
+        strings={['🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🫐 🍈 🍒 🍑 🥭']}
+        typeSpeed={30}
+        backSpeed={30}
+        loop={true}
+      />
     </PageLayout>
   );
 }
